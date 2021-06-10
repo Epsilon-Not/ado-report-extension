@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\Samples",
+    "\\src\\Samples\\ReportExtension",
+    "\\src\\__mocks__",
+    "\\src\\__mocks__\\azure-devops-extension-api",
+    "\\static"
+  ],
+  "SelectedNode": "\\azure-devops-extension.json",
+  "PreviewInSolutionExplorer": false
+}
