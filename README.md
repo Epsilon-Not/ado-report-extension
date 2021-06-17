@@ -20,8 +20,7 @@ External Dependencies:
 ## Instructions
 You need a Publisher account to publish extensions to ADO (even private ones).
 
-Instructions at:
-https://docs.microsoft.com/en-us/azure/devops/extend/publish/overview?view=azure-devops
+Instructions at: https://docs.microsoft.com/en-us/azure/devops/extend/publish/overview?view=azure-devops
 *Ignore packaging instructions as that is the older way. 
 
 Once you have a publisher account just run: "npm run build" to create the VSIX file.
