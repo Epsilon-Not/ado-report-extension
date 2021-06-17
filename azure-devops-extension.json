@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "report-extension",
     "publisher": "ghustes-leidos",
-  "version": "1.0.48",
+  "version": "1.0.49",
     "name": "Report Extension",
     "description": "Azure DevOps Extension",
     "categories": [
