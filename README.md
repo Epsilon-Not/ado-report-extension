@@ -1,5 +1,5 @@
-# Azure DevOps Custom Reporting Extension
-Extension allows custom reporting, based of our own internal algorith. Calculates an estimated completion date for work items from a given query.
+# Azure DevOps Extension for Estimated Completion Date Report
+Extension allows custom reporting of an estimated completion date, for work items from a given query.
 
 Original template from:
 https://github.com/microsoft/azure-devops-extension-sample
@@ -17,5 +17,11 @@ External Dependencies:
 - `SASS` - Extension is styled using SASS (which is compiled to CSS and delivered in webpack js bundles).
 - `webpack` - Is used to gather dependencies into a single javascript bundle.
 
+## Instructions
+You need a Publisher account to publish extensions to ADO (even private ones. Instructions at:
+https://docs.microsoft.com/en-us/azure/devops/extend/publish/overview?view=azure-devops
+*Ignore packaging instructions as that is the older way. 
 
+Once you have a publisher account just run: npm run build to create the VSIX file.
+Go to: https://marketplace.visualstudio.com/manage and add a new extension where the .vsix file can be uploaded. 
 
