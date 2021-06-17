@@ -18,10 +18,14 @@ External Dependencies:
 - `webpack` - Is used to gather dependencies into a single javascript bundle.
 
 ## Instructions
-You need a Publisher account to publish extensions to ADO (even private ones. Instructions at:
+You need a Publisher account to publish extensions to ADO (even private ones).
+
+Instructions at:
 https://docs.microsoft.com/en-us/azure/devops/extend/publish/overview?view=azure-devops
 *Ignore packaging instructions as that is the older way. 
 
-Once you have a publisher account just run: npm run build to create the VSIX file.
-Go to: https://marketplace.visualstudio.com/manage and add a new extension where the .vsix file can be uploaded. 
+Once you have a publisher account just run: "npm run build" to create the VSIX file.
+Go to: https://marketplace.visualstudio.com/manage 
+Add a new extension where the .vsix file can be uploaded. 
+Share the extension with your organization(click three dots to right of extension) and install.
 
