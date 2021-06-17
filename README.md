@@ -1,5 +1,5 @@
 # Azure DevOps Extension for Estimated Completion Date Report
-Extension allows custom reporting of an estimated completion date, for work items of a given query.
+Extension to allow custom reporting of an estimated completion date, for work items of a given query.
 
 Original template from:
 https://github.com/microsoft/azure-devops-extension-sample
